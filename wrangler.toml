@@ -1,0 +1,10 @@
+name = "weather-bot"
+main = "worker.js"
+compatibility_date = "2026-09-02"
+
+[vars]
+BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+
+[[kv_namespaces]]
+binding = "LOCATIONS"
+id = "YOUR_KV_NAMESPACE_ID"

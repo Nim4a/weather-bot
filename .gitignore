@@ -1,0 +1,7 @@
+.wrangler/
+__pycache__/
+*.pyc
+node_modules/
+.env
+token.txt
+*.html.debug
