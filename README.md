@@ -5,6 +5,10 @@ No API key needed — weather data comes from [Open-Meteo](https://open-meteo.co
 
 [English](#english) · [فارسی](#فارسی)
 
+<p align="center">
+  <img src="docs/forecast-sample.png" alt="7-day temperature chart for Tehran: max and min curves with a weather icon per day" width="720">
+</p>
+
 ## English
 
 ### What it does
@@ -56,6 +60,10 @@ Get a token from [@BotFather](https://t.me/BotFather).
 1. Send `/start`
 2. Type a city name (`تهران`, `Tehran`, `London`)
 3. Switch between saved cities with the inline buttons, or ask for the animated chart
+
+### Sample chart
+
+`docs/forecast-sample.gif` is the real GIF this repo generates (7 frames, 990×495) for a Tehran forecast — animated with `animations.py`, no external assets.
 
 ### Requirements
 
